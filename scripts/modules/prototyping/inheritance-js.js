@@ -54,3 +54,23 @@ console.log("Is dog an instance of Dog? ", fox instanceof Dog, "\n")
    // dog.private +"\n" // Should be: 'undefined'
 );
 */
+
+var lib={};
+var arr=[];
+for(var i=0; i<20;i++){
+    arr.push(i=i);
+    lib.i=i;
+}
+
+//console.log(lib);
+
+for(var keys in lib){
+   // console.log('Keys :'+keys+'// Values :'+lib[keys]);
+}
+
+var items = [ { id1: 1 }, { id2: 2}, { id3: 3}, { id4: 4 }];
+
+items.forEach(function(keys,value) {
+  arr.push(keys=value);
+});//alert('inherit')
+//console.log(arr)

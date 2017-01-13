@@ -1,4 +1,4 @@
-require(['modules/prototyping/inheritance-js'], function(util) { 
+require(['modules/prototyping/inheritance-js','modules/prototyping/array-objects'], function(util,obs) {  
 	
     //This function is called when scripts/helper/util.js is loaded.
     //If util.js calls define(), then this function is not fired until
