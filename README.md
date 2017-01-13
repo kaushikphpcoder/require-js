@@ -12,6 +12,6 @@ Read all documentation.
 
 Js Prototyping URl
 -------------------
--http://javascript.crockford.com/
--http://javascript.crockford.com/inheritance.html
--http://stackoverflow.com/questions/2064731/good-example-of-javascripts-prototype-based-inheritance
+- http://javascript.crockford.com
+- http://javascript.crockford.com/inheritance.html
+- http://stackoverflow.com/questions/2064731/good-example-of-javascripts-prototype-based-inheritance
